@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.main-content {
+  margin: auto;
+  padding: 20px 0;
+  max-width: 70%;
+  height: 100vh;
+  /*display: flex;*/
+  /*justify-content: center;*/
+  /*align-items: center;*/
+
+}
+.example-card {
+  max-width: 250px;
+}
+.card-content {
+  padding: 16px 0;
+}
+.users-container {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+
+}
+
+
+
